@@ -1,0 +1,229 @@
+body {
+	font-family: 'Open Sans', sans-serif;
+	color: #201b2d;
+	font-size: 15px;
+	padding: 0;
+	margin: 0;
+	overflow-x: hidden;
+
+}
+
+div, p, input, button, form, span, a, ul, li {
+	box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+	font-family: Montserrat, sans-serif;
+	font-weight: 900;
+}
+
+h2 {
+	text-align: center;
+}
+
+p {
+	line-height: 1.6em;
+}
+
+.container {
+	width: 1170px;
+	margin: 0 auto;
+}
+
+.header {
+	background: rgb(78,190,254);
+	background: -moz-linear-gradient(122deg, rgba(78,190,254,1) 0%, rgba(55,143,217,1) 100%);
+	background: -webkit-linear-gradient(122deg, rgba(78,190,254,1) 0%, rgba(55,143,217,1) 100%);
+	background: linear-gradient(122deg, rgba(78,190,254,1) 0%, rgba(55,143,217,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#4ebefe",endColorstr="#378fd9",GradientType=1);
+	padding-bottom: 143px;
+}
+
+.logo {
+	margin-top: 62px;
+}
+
+.wrapper {
+	display: flex;
+	justify-content: space-between;
+}
+
+.offer {
+	width: 538px;
+	margin-top: 147px;
+}
+
+.title {
+	width: 642px;
+	color: #fff;
+}
+
+.title span {
+	font-size: 59px;
+}
+
+.intro {
+	color: #fff;
+	font-size: 16px;
+	margin-top: 50px;
+	width: 405px;
+	margin-bottom: 43px;
+}
+
+.btn {
+	font-family: Montserrat, sans-serif;
+	background: #ffd429;
+	color: #000;
+	border-radius: 100px;
+	display: block;
+	width: 222px;
+	padding: 20px 0;
+	text-align: center;
+	text-decoration: none;
+	transition: all 0.5s ease;
+}
+
+.btn:hover {
+	background: #000;
+	color: #ffd429;
+}
+
+.red {
+	color: red;
+}
+
+.animate__animated {
+	opacity: 0;
+}
+
+.img {
+	margin-top: 30px;
+}
+
+.future {
+	padding-top: 107px;
+	padding-bottom: 121px;
+}
+
+.section-title {
+	font-size: 30px;
+	padding-bottom: 82px; 
+}
+
+.skills {
+	display: flex;
+	justify-content: space-between;
+}
+
+.skill {
+	text-align: center;
+}
+
+.my-future {
+	margin-top: 32px;
+	font-size: 19px;
+}
+
+.Questionnaire {
+	background: #ecf3f8;
+	padding-top: 102px;
+	padding-bottom: 106px;
+
+}
+
+.main-form {
+	padding-bottom: 63px;
+}
+
+.input {
+	width: 341px;
+	border: 1px solid #bbb;
+	display: block;
+	margin: 17px auto;
+	padding: 25px;
+}
+
+.btn1 {
+	width: 341px;
+	font-family: Montserrat, sans-serif;
+	color: #000;
+	background: #ffd429;
+	border-radius: 5px;
+	display: block;
+	margin: 0 auto;
+	padding: 20px 0;
+	text-align: center;
+	text-decoration: none;
+	transition: all 0.5s ease;
+}
+
+.btn1:hover {
+	background: #000;
+	color: #ffd429;
+}
+
+.footer {
+	background: #164d7a;
+	padding-top: 63px;
+	padding-bottom: 63px;
+}
+
+.bt-footer {
+	color: #fff;
+	font-size: 14px;
+	text-align: center;
+}
+
+
+
+@media screen and (max-width: 1200px) {
+	.container {
+		width: 960px;
+	}
+}
+
+@media screen and (max-width: 992px) {
+	.container {
+		width: 720px;
+	}
+	.wrapper {
+		flex-direction: column;
+	}
+	.offer {
+		width: 100%;
+	}
+	.intro {
+		width: auto;
+	}
+	.img {
+		display: block;
+    	width: 535px;
+    	margin: 60px auto;
+	}
+	.skills {
+		flex-direction: column;
+	}
+	.skill {
+		width: auto;
+		margin-bottom: 30px;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.container {
+		width: 540px;
+	}
+	.img {
+		width: 100%;
+	}
+	.input {
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 576px) {
+	.container {
+		width: 90%;
+	}
+}
